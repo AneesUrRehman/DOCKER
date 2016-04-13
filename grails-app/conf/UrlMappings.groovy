@@ -5,10 +5,9 @@ class UrlMappings {
             constraints {
                 // apply constraints here
             }
-'/hello'(controller: 'docker')
-
         }
 
+        '/hello'(controller: 'docker')
         "/"(view:"/index")
         "500"(view:'/error')
 	}
