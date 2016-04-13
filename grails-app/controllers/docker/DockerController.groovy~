@@ -1,9 +1,0 @@
-package docker
-
-class DockerController {
-
-    def index() { 
-
-        render 'Hello'
-}
-}
